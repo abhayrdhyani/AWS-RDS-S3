@@ -1,6 +1,6 @@
 customhost = "database-1.ckqfrprl5jmt.ap-south-1.rds.amazonaws.com"
 customuser = "admin"
-custompass = "admin123"
+custompass = "admin1234"
 customdb = "employee"
-custombucket = "testingpy"
+custombucket = "database-1"
 customregion = "ap-south-1"
