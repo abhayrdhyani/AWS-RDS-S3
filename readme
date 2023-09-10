@@ -5,18 +5,18 @@ sudo apt-get install mysql-client
 # For python and related frameworks
 
 cd /home/ubuntu/
-sudo apt update
-sudo apt install git
+sudo apt-get -y update && sudo apt-get -y update
+sudo apt install -y git
 git clone https://github.com/abhayrdhyani/AWS-RDS-S3.git
 cd AWS-RDS-S3/
 cp -rf __pycache__/ /home/ubuntu
 cp -rf templates/ /home/ubuntu
 cp * /home/ubuntu
 cd ..
-sudo apt-get install python3
-sudo apt-get install python3-flask
-sudo apt-get install python3-pymysql
-sudo apt-get install python3-boto3
+sudo apt-get install -y python3
+sudo apt-get install -y python3-flask
+sudo apt-get install -y python3-pymysql
+sudo apt-get install -y python3-boto3
 sudo python3 EmpApp.py
 
 # for running application
